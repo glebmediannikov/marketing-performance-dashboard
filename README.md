@@ -1,12 +1,23 @@
 # Marketing Performance Dashboard
 
-A synthetic multi-channel marketing dataset designed to demonstrate how I evaluate **traffic, funnel conversion, CAC, and ROAS** together.
+
+## Executive summary
+
+This project demonstrates how I evaluate multi-channel marketing performance across **traffic, funnel conversion, customer acquisition cost, revenue, and ROAS**.
+
+The goal is to move beyond channel-level reporting and answer a more useful business question:
+
+**Which marketing channels are actually creating efficient, scalable growth?**
+
+The analysis compares Paid Search, Organic Search, Paid Social, Email, Referral, and Direct traffic using a common decision framework.
+
+> **Portfolio note:** The dataset is synthetic and contains no confidential company information.
 
 ## Channels included
 
 Paid Search · Organic Search · Paid Social · Email · Referral · Direct
 
-## Questions answered
+## Business questions
 
 - Which channels generate the strongest customer volume?
 - Where does the funnel lose efficiency?
@@ -29,6 +40,16 @@ Paid Search · Organic Search · Paid Social · Email · Referral · Direct
 ```bash
 python analyze_channels.py
 ```
+## Business recommendations
+
+Based on this framework, a marketing team should:
+
+- Allocate budget based on downstream customer economics, not traffic volume alone
+- Identify channels with strong top-of-funnel performance but weak customer conversion
+- Compare paid-media efficiency using CAC and ROAS together
+- Treat Organic, Email, Referral, and Direct differently from paid acquisition when evaluating CAC
+- Investigate funnel leakage before increasing spend
+- Use channel-level data as an input to budget decisions rather than as a reporting endpoint
 
 ## Marketing principle
 
